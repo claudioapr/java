@@ -1,0 +1,12 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.staxter</groupId>
+  <artifactId>player-chat-socket</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <description>This is the staxter test 1, using pure java and creating a chat for comunication between players, this version is using JavaSocket to make the comunication</description>
+  <modules>
+  	<module>player-chat-server</module>
+  	<module>player-chat-client</module>
+  </modules>
+</project>
